@@ -28,7 +28,7 @@ redis==2.10.3
 requests==2.20
 requests-oauthlib==0.4.2
 scikit-learn==0.24.2
-scipy==0.15.1
+scipy==1.10.0rc1
 setproctitle==1.1.8
 six==1.9.0
 ssh-import-id==3.21
@@ -37,3 +37,4 @@ urllib3==1.26.5
 Werkzeug==0.15.3
 zope.interface==4.0.5
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
